@@ -1,0 +1,181 @@
+<html>
+<head>
+<style>
+  /**navigation links**/
+  a {
+    text-decoration: none;
+    color: black;
+  }
+   /**navigation links hover**/
+ #about:hover {
+  background-color:lightskyblue;
+ }
+ #admission:hover {
+  background-color:lightskyblue;
+ }
+ #infrastructure:hover {
+  background-color:lightskyblue;
+ }
+  /**admission link**/
+ #procedure{
+  width:300px;
+ }
+ #procedure:hover{
+  transform: translateX(5px);
+  background-color: aqua;
+ }
+ #adform{
+  width:300px;
+ }
+ #adform:hover{
+  transform: translateX(5px);
+  background-color: aqua;
+ }
+ #fees{
+  width:300px;
+ }
+ #fees:hover{
+  transform: translateX(5px);
+  background-color: aqua;
+ }
+  /**login link**/
+ #studentlogin{
+  width:500px;
+ }
+ #studentlogin:hover{
+  padding-left: 5px;
+  background-color: aqua;
+ }
+ #facultylogin{
+  width:300px;
+ }
+ #facultylogin:hover{
+  padding-left: 5px;
+  background-color: aqua;
+ }
+  /**College Facilities**/
+ #library {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+ }
+ #canteen {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+ }
+ #transport {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+ }
+ #sports {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+ }
+ #auditorium {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+ }
+ /**events**/
+ .card
+ {
+  height: 300px;
+  width: 250px;
+  margin-left: 630px;
+  position:absolute;
+  transition: 3s ease-in-out;
+  cursor: pointer;
+ }
+ .events {
+  display: grid;
+ }
+#ca1 {
+  background-image: url("C:\\Users\\subaganesh\\Downloads\\srcaspongal.jpg");
+}
+#ca2 {
+  background-image: url("C:\\Users\\subaganesh\\Downloads\\srcas-freshers-day-176.jpg");
+}
+#ca3 {
+  background-image: url("C:\\Users\\subaganesh\\Downloads\\hqdefault.jpg");
+}
+#ca4 {
+  background-image: url("C:\\Users\\subaganesh\\Downloads\\srcaspongal.jpg");
+  background-size:contain;
+}
+.events:hover #card1 {
+  transform:translatex(-100px) rotate(-40deg);
+}
+.events:hover #card2 {
+  transform:translatex(-50px) rotate(-30deg);
+}
+.events:hover #card3 {
+  transform:translatex(0) rotate(-20deg);
+}
+.events:hover #card4 {
+  transform:translatex(50px) rotate(-10deg);
+}
+.events:hover #card5 {
+  transform:translatex(-150px) rotate(0deg);
+}
+ /**Safety**/
+ #antiragging {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  opacity: 50%;
+ }
+ #harassment {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  opacity: 50%;
+ }
+ #innovation {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  opacity: 50%;
+ }
+ #helpline {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  opacity: 50%;
+ }
+
+#antiragging:hover {
+  opacity: 100%;
+}
+#harassment:hover {
+  opacity: 100%;
+}
+#innovation:hover {
+  opacity: 100%;
+}
+#helpline:hover {
+  opacity: 100%;
+}
+ /**Footer**/
+#footer {
+  height: 400px;
+  width: 1525px;
+}
+#footercontent {
+  margin: 30px;
+}
+</style>
+</head>
+</html>

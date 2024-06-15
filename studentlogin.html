@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Stnudent Login
+</title>
+<style>
+.student{
+height:500px;
+width:700px;
+transform:translate(450px,150px);
+border-radius:10px;
+opacity: 90%;
+background-color:whitesmoke;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;}
+
+.button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 300px;
+}
+</style>
+<script>
+    function validate() {
+        let mail = document.getElementById("email").value;
+
+        if(mail !==  "@" && "gmail.com")
+        {
+            alert("Invalid data");
+        }
+        else
+        {
+            alert('login Success');
+        }
+    }
+</script>
+</head>
+
+<body style="background-image:url('C:\\Users\\subaganesh\\Downloads\\1000_F_782192508_PrRliftEnd7oR6iKps5aRoDo3IWVlrEx.jpg'); background-position:center">
+<div class="student">
+    <h2 style="text-align:center; padding-top: 20px;">KKC Login</h2><br><br>
+    <span> <label style="margin-left: 180px; font-family: Arial, Helvetica, sans-serif;"> Log-in ID</label></span> <br><br>
+    <input type="email" placeholder="Official Mail Id" style="width: 320px; height: 30px;margin-left: 180px; border: 1px solid black; background-color: aliceblue; border-radius: 5px;" id="email"><br><br><br>
+    <span> <label style="margin-left: 180px; font-family: Arial, Helvetica, sans-serif;"> Password</label></span> <br><br>
+    <input type="text" placeholder="D-O-B" style="width: 320px; height: 25px;margin-left: 180px; border: 1px solid black; background-color: aliceblue; border-radius: 5px;"><br><br><br>
+    <button class="button" onclick="validate()">Log-in</button>
+
+
+
+</div>
+
+
+</body>
+
+</html>
